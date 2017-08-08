@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <title>Etsy</title>
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+  <div class="nav-bar">
+    <div class="top">
+      <h1>Etsy</h1>
+      <form id="search-bar">
+        <input type="text" class="search" placeholder="Clemson">
+        <input type="button" class="search-button" value="Search">
+      </form>
+
+      <ul class="links-right">
+        <li><a class="nav-link" href="#">Sell on Etsy</a></li>
+        <li><a class="nav-link" href="#">Register</a></li>
+        <li><a class="nav-link" id="sign-in" href="#">Sign In</a></li>
+        <li><a class="nav-link" href="#">
+              <span id="cart" class="glyphicon glyphicon-shopping-cart"></span>
+            </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="category-bar">
+    <ul class="links-left">
+      <li><a class="cat-link" href="#">Clothing &amp; Accessories</a></li>
+      <li><a class="cat-link" href="#">Jewelry</a></li>
+      <li><a class="cat-link" href="#">Craft Supplies &amp; Tools</a></li>
+      <li><a class="cat-link" href="#">Weddings</a></li>
+      <li><a class="cat-link" href="#">Entertainment</a></li>
+      <li><a class="cat-link" href="#">Home &amp; Living</a></li>
+      <li><a class="cat-link" href="#">Kids &amp; Baby</a></li>
+      <li><a class="cat-link" href="#">Vintage</a></li>
+    </ul>
+  </div>
+
+  <div class="page-content">
+
+    <!-- side-bar section 1 -->
+
+    <div class="side-bar">
+      <a class="cat-sub-link"><h4 class="side-main">All Categories</h4></a>
+      <a class="cat-sub-link">
+        <p class="cat-sub">Home &amp; Living</p>
+      </a>
+      <a class="cat-sub-link">
+        <p class="cat-sub">Accessories</p>
+      </a>
+      <a class="cat-sub-link">
+        <p class="cat-sub">Jewelry</p>
+      </a>
+      <a class="cat-sub-link">
+        <p class="cat-sub">Clothing</p>
+      </a>
+      <a class="cat-sub-link">
+        <p class="more">+ Show More</p>
+      </a>
+
+      <!-- side-bar section 2 -->
+
+      <h4 class="side-main">Shop Location</h4>
+      <div class="radio">
+        <label for="radio-0">
+          <input type="radio" name="any">
+          Anywhere
+        </label>
+      </div>
+      <div class="radio">
+        <label for="radio-0">
+          <input type="radio" name="any">
+          United States
+        </label>
+      </div>
+      <div class="radio">
+        <label for="radio-0">
+          <input type="radio" name="any">
+          Custom
+        </label>
+      </div>
+      <form class="more" id="loc-bar">
+        <input type="text" class="loc-search" placeholder="Enter location">
+        <input type="button" class="searchButton" value="&gt;">
+      </form>
+
+      <!-- side-bar section 3 -->
+
+      <div class="third-sec">
+        <h4 class="side-main">Item type</h4>
+        <div class="radio">
+          <label for="radio-0">
+            <input type="radio" name="any">
+            Handmade
+          </label>
+        </div>
+        <div class="radio">
+          <label class="under" for="radio-0">
+            <input type="radio" name="any">
+            Vintage
+          </label>
+        </div>
+      </div>
+
+      <!-- side-bar section 4 -->
+
+      <h4 class="side-main">Price ($)</h4>
+      <div class="radio">
+        <label for="radio-0">
+          <input type="radio" name="any">
+          Under $25
+        </label>
+      </div>
+      <div class="radio">
+        <label class="under" for="radio-0">
+          <input type="radio" name="any">
+          $25 to $50
+        </label>
+      </div>
+      <div class="radio">
+        <label class="under" for="radio-0">
+          <input type="radio" name="any">
+          $25 to $50
+        </label>
+      </div>
+      <div class="radio">
+        <label class="under" for="radio-0">
+          <input type="radio" name="any">
+          $50 to $100
+        </label>
+      </div>
+      <div class="radio">
+        <label class="under" for="radio-0">
+          <input type="radio" name="any">
+           Over $100
+        </label>
+      </div>
+      <div class="radio">
+        <label class="under" for="radio-0">
+          <input type="radio" name="any">
+          Custom
+        </label>
+      </div>
+      <form class="price-range">
+        <input id="min" type="number" name="" value="Low" placeholder="Low"> to
+        <input id="max" type="number" name="" value="High" placeholder="High">
+        <input type="button" class="searchButton" value="&gt;">
+      </form>
+
+      <!-- side-bar section 5 -->
+      <h4 class="side-main">Color</h4>
+      <div class="checkbox">
+        <label for="checkbox-0">
+            <input type="checkbox" name="checkboxes" value="1">
+            Orange
+          </label>
+      </div>
+      <div class="checkbox">
+        <label for="checkbox-1">
+            <input type="checkbox" name="checkboxes" value="2">
+            Purple
+          </label>
+      </div>
+      <div class="checkbox">
+        <label for="checkbox-2">
+            <input type="checkbox" name="checkboxes" value="3">
+            White
+          </label>
+      </div>
+      <div class="checkbox">
+        <label for="checkbox-3">
+            <input type="checkbox" name="checkboxes" value="4">
+            Black
+          </label>
+      </div>
+      <div class="checkbox">
+        <label for="checkbox-4">
+            <input type="checkbox" name="checkboxes" value="5">
+            Red
+          </label>
+      </div>
+      <p class="more"> + Show More</p>
+
+      <!-- side-bar section 6 -->
+      <div class="section-6">
+        <h4 class="side-main">Ordering options</h4>
+        <div class="checkbox">
+          <label for="checkbox-0">
+              <input type="checkbox" name="checkboxes" value="1">
+              Accepts Etsy gift cards
+            </label>
+        </div>
+        <div class="checkbox">
+          <label id="order-opts" for="checkbox-1">
+              <input type="checkbox" name="checkboxes" value="2">
+              Customizable
+            </label>
+        </div>
+      </div>
+
+      <!-- side-bar section 7 -->
+
+      <h4 class="side-main">Ship to</h4>
+      <form class="ship-form" action="" method="">
+        <select class="ship-to" name="select">
+          <option class ="where" value="United States">United States</option>
+          <option value="Canada">Canada</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Puerto Rico">Puerto Rico</option>
+          <option value="Guam">Guam</option>
+        </select>
+      </form>
+
+    </div>
+
+
+
+
+
+    <!-- product tiles -->
+
+    <div id="product-container" class="container">
+      <div class="row">
+        <!-- html here is generated by handlebars -->
+      </div>
+    </div>
+
+
+
+    <script id="product-template" type="text/x-handlebars-template">
+
+      <div class="col-md-3">
+        <img class="prod-image" src="{{ Images.0.url_170x135 }}">
+        <h3 class="desc">{{ title }}</h3>
+        <h4>{{ Shop.shop_name }}</h4>
+        <div id="rate">&#x02605 &#x02605 &#x02605 &#x02605 &#x02605 ({{ num_favorers }})</div>
+        <p>${{ price }}</p>
+      </div>
+
+
+
+    </script>
+  </div>
+  <div class="end">
+    <footer>
+      <p>Get fresh Etsy trends and unique gift ideas delivered right to your inbox.</p>
+      <form class="email" action="" method="">
+        <input type="text" placeholder="Enter your email" value="email" size="40">
+        <button type="submit" name="button">Search</button>
+      </form>
+
+
+      <div id="last-links" class="col-md-3">
+        <h3>Shop</h3>
+        <p>Gift cards</p>
+        <p>Etsy blog</p>
+        <p>Wholesale</p>
+      </div>
+      <div id="last-links" class="col-md-3">
+        <h3>Sell</h3>
+        <p>Sell on Etsy</p>
+        <p>Teams</p>
+        <p>Forums</p>
+      </div>
+      <div id="last-links" class="col-md-3">
+        <h3>About</h3>
+        <p>Etsy, Inc.</p>
+        <p>Policies</p>
+        <p>Investors</p>
+        <p>Careers</p>
+        <p>Press</p>
+      </div>
+      <div id="last-links" class="col-md-3">
+        <h3>Follow Etsy</h3>
+        <p>Facebook</p>
+        <p>Instagram</p>
+        <p>Pinterest</p>
+        <p>Twitter</p>
+      </div>
+
+
+
+
+
+
+    </footer>
+  </div>
+
+
+  <script src="js/bundle.js"></script>
+</body>
+
+</html>
